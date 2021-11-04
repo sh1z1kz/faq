@@ -36,6 +36,10 @@ git comit -m "..."
 ```bash
 git push 
 ```
+### Принять изменения из облака:
+```bash
+git pull
+```
 
 
 # Cсылки:
