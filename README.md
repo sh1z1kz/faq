@@ -40,6 +40,8 @@ git push
 ```bash
 git pull
 ```
+### Информация;
+https://html5book.ru/css3-animation/
 
 
 # Cсылки:
