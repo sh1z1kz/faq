@@ -1,0 +1,59 @@
+*
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: black;
+    overflow: hidden;
+}
+.container {
+    position: relative;
+    width: 100%;
+    
+}
+.box{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.krug{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:200px;
+    height:200px;
+    border-radius: 55px;
+    background:rgb(16, 151, 66);
+    box-shadow: 0 0 35px rgb(49, 170, 80, 15);
+    margin:15px;
+    border: 5px solid rgb(49, 170, 80);
+    animation: krug 2s infinite forwards;
+}
+@keyframes krug{
+    0%{
+        border-width: 5px;
+        width:200px;
+        height:200px;
+    }
+    25%{
+        border-width: 7px;
+        width:210px;
+        height:210px;
+    }
+    50%{
+        border-width: 10px;
+        width:215px;
+        height:215px;
+    75%{
+        border-width: 15px;
+        width:220px;
+        height:220px; 
+    }
+    100%{
+        border-width: 20px;
+        width:225px;
+        height:225px; 
+    }
