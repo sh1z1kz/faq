@@ -1,26 +1,25 @@
-*{
-margin: 0;
-padding: 0;
+* {
+    margin: 0;
+    padding: 0;
 }
 
-html, body{
-    width: 100%;
+html, body {
     height: 100%;
+    width: 100%;
     color: #0249c2;
     font-family: 'Roboto', sans-serif;
 }
 
-.Landing{
+.Landing {
     width: 100%;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-    align-items: stretch;
-    align-content: space-around;
     justify-content: flex-start;
+    align-items: stretch;
 }
 
-.Landing__section{
+.Landing__section {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -28,20 +27,19 @@ html, body{
     align-items: center;
 }
 
-.Landing__section_Blue{
+.Landing__section_blue {
     background-color: #0249c2;
-    color: #ffffffff;
+    color: #ffffff;
 }
 
-.Section{
-    padding: 72px;
+.Section {
+    padding: 56px 0;
     width: 940px;
 }
 
-.Section__title{
+.Section__title {
     font-size: 32px;
     font-weight: 700;
-
 }
 
 .Section__header {
@@ -67,9 +65,9 @@ html, body{
 .Menu__link {
     font-size: 24px;
     font-weight: 900;
-    cursor: pointer;
-    opacity: 5;
     margin-left: 24px;
+    cursor: pointer;
+    opacity: .5;
     transition: opacity .25s;
 }
 
@@ -85,9 +83,9 @@ html, body{
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    align-content: space-around;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    align-content: center;
 }
 
 .Slider__info {}
@@ -104,82 +102,151 @@ html, body{
     font-weight: 900;
     padding: 16px 24px;
     border-radius: 7px;
-    background-color:#ffffffff ;
+    background-color: #ffffff;
     color: #0249c2;
 }
 
-.Slider__imege {
+.Slider__image {
     width: 50%;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    align-content: center;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    align-content: center;
 }
 
-.Landing__section__image {
+.Landing__section_image {
     background-image: url('images/images/background_image.png');
     background-repeat: no-repeat;
     background-position: center;
 }
-.Section_content{
-    margin-top:32px;
+
+.Section__content {
+    margin-top: 32px;
 }
-.Content_text{
+
+.Content__text {
     font-size: 20px;
 }
-.Content_list{
-    width:100%;
+
+.Content__list {
+    width: 100%;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    align-content: flex-start;
     justify-content: space-between;
     align-items: flex-start;
+    align-content: flex-start;
 }
-.List_element{
 
-}
-.Element_img{
+.List__element {}
 
+.Element__img {}
+
+.Element__img img {
+    border-radius: 24px;
 }
-.Element_img img{
-    border-radius: 30px;
-}
-.Element_title{
+
+.Element__title {
     padding: 0 16px;
-    font-size: 24px;
-    font-weight: 700;
     margin-top: 16px;
+    font-weight: 900;
+    font-size: 22px;
 }
-.Element_info{
+
+.Element__info {
     padding: 0 16px;
-    font-size: 24px;
-    font-weight: 400;
     margin-top: 16px;
+    font-weight: 500;
+    font-size: 18px;
 }
-.Section_map{
-}
-.Map_image{
+
+.Content__karta {
     display: flex;
-    float: right;
-    align-items: center;
-    justify-content: space-between;
-    align-content: space-around;
+    flex-direction: column;
     flex-wrap: nowrap;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: space-around;
+}
+.main__karta {
+    margin-top: 50px;
+    display: flex;
     flex-direction: row;
+    justify-content: space-between;
 }
-.Map_title{
-    padding: 0 16px;
-    font-size: 24px;
-    font-weight: 700;
-    margin-top: 16px;
+
+.telephone {}
+
+.telephone__title {
+    margin-top: 40px;
+    font-size: 25px;
 }
-.Map_text{
-    color: #7360d3;
-    padding: 0 16px;
+
+.number {
+    margin-top: 20px;
     font-size: 20px;
-    font-weight: 300;
-    margin-top: 16px;
+}
+
+.adress{}
+
+.adress__title {
+    margin-top: 24px;
+    font-size: 25px;
+}
+
+.adress__adres {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.Karta__img {}
+
+.Content__form {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Form__input {
+    border: 2px solid #cbcbcb;
+    padding: 24px;
+    padding: 20px 24px;
+    font-size: 20px;
+    width: 100%;
+    margin-right: 24px;
+}
+
+.Button__form {
+    background-color: #012461;
+    border: none;
+    font-size: 20px;
+    font-weight: 900;
+    color: white;
+    padding: 20px 24px;
+    cursor: pointer;
+}  
+
+.Table__tr {
+    padding: 24px;
+}
+
+.Table__th {
+    border: 2px solid #cbcbcb;
+    padding: 24px;
+
+}
+
+.Table {
+    width: 100%;
+    text-align: left;
+    border: 2px solid #cbcbcb;
+    border-collapse: collapse;
+}
+
+.Content__table {
+    width: 100%;
 }
